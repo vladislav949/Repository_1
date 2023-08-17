@@ -1,0 +1,3 @@
+git status
+git 234
+git add
