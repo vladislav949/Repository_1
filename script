@@ -1,0 +1,36 @@
+#!/bin/bash
+# This is a comment
+echo "The current directory is:"
+
+pwd
+
+echo "The user logged in is:"
+
+whoami
+
+echo "Go to terminal:"
+
+cd Terminal
+
+echo "add 3 folders:"
+
+mkdir folder1 ; mkdir folder2 ; mkdir folder3
+
+echo "go to folder3:"
+
+cd folder3
+
+echo "add 5 new files:"
+
+touch 1.txt ; touch 2.txt ; touch 3.txt ; touch 1.json ; touch 2.json
+
+echo "add 3 folders:"
+
+mkdir 1folder ; mkdir 2folder ; mkdir 3folder
+
+echo "ls -la"
+
+ls -la
+
+mv 1.txt 3folder ; mv 1.json 3folder
+
