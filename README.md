@@ -65,7 +65,7 @@ Body
 </body>
 </html>
 ```
-
+____
 ## Списки
 ### Маркированный 
 * qwerty
@@ -85,9 +85,44 @@ Body
 - [X] sdasda
     - [ ] sdsdsds
 - [ ] sdsdsfgf
-
+____
 ### Ссылки
-
+```
 [GitHub](https://github.com/crazqx)
-
+```
+[GitHub/crazqx](https://github.com/crazqx)
+____
 ### Изображения
+```
+![Image](https://avatars.githubusercontent.com/u/141329249?v=4)
+```
+![Image](https://avatars.githubusercontent.com/u/141329249?v=4)
+
+### Всплывающее описание при наведении
+
+```
+![Image](https://avatars.githubusercontent.com/u/141329249?v=4, "Всплывающее описание")
+```
+
+![Image](https://avatars.githubusercontent.com/u/141329249?v=4, "Всплывающее описание")
+____
+### Таблицы
+
+| LEFT | CENTER | RIGHT |
+|----------------|:---------:|---------------:|
+| По левому краю | По центру | По правому краю |
+|Текст | Текст| Текст |
+
+____
+### Плашки (shields)
+
+[Shields.io](https://shields.io)
+
+
+```Markdown
+![AppVeyor tests](https://img.shields.io/appveyor/tests/:user/:repo)
+
+```
+![AppVeyor tests](https://img.shields.io/appveyor/tests/:user/:repo)
+
+
