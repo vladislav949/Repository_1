@@ -1,5 +1,6 @@
 #!/bin/bash
 # This is a comment
+
 echo "The current directory is:"
 
 pwd
@@ -14,7 +15,7 @@ cd Terminal
 
 echo "add 3 folders:"
 
-mkdir folder1 ; mkdir folder2 ; mkdir folder3
+mkdir folder1 folder2 folder3
 
 echo "go to folder3:"
 
@@ -22,15 +23,15 @@ cd folder3
 
 echo "add 5 new files:"
 
-touch 1.txt ; touch 2.txt ; touch 3.txt ; touch 1.json ; touch 2.json
+touch 1.txt 2.txt 3.txt 1.json 2.json
 
 echo "add 3 folders:"
 
-mkdir 1folder ; mkdir 2folder ; mkdir 3folder
+mkdir 1folder 2folder 3folder
 
 echo "ls -la"
 
 ls -la
 
-mv 1.txt 3folder ; mv 1.json 3folder
+mv 1.txt 1.json 3folder
 
